@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume - Contact Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <ul class="navbar">
+            <li><a href="./Index.html">Home</a></li> |
+            <li><a href="./Education.html">Education</a></li> |
+            <li><a href="./WorkExperience.html">Work Experience</a></li> |
+            <li><a href="#">Contact Me</a></li>
+        </ul>
+        <hr>
+    </header>
+
+    <h1>Contact Me</h1>
+    </br>
+    <img class="contacticon" src="./contacticon.png" alt="not found">
+    </br>
+
+    <fieldset>
+        <legend>Enter Your Information</legend>
+        <form>
+            <label>Your Name <br>
+                <input type="text" name="fname">
+            </label><br>
+            <label>Your E-mail <br>
+                <input type="text" name="lname">
+            </label><br><br>
+            <form>
+                <label for="gender">Gender:</label><br>
+                <select id="gender" name="gender">
+                    <option value selected disabled hidden>Select</option>
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                </select>
+                <br><br>
+                <label>Messege <br>
+                    <textarea type="text" name="Messege" rows="15"></textarea>
+                </label><br><br>
+            </form>
+            <br>
+            <button type="submit" value="Send">Send</button>
+            <button type="reset" value="Clear">Clear</button>
+        </form>
+        <br><br>
+        </form>
+    </fieldset>
+</body>
+
+</html>
+
+<!-- SELF NOTE -->
+<!-- label ordered can be covered all demand, so can apply into whole format-->
+<!-- same result difference coding type by EX. below 1 vs 2-->
+
+<!-- 1. <label>Last Name: <br> -->
+<!-- <input type="text" name="lname"> -->
+<!-- </label><br><br> -->
+
+<!-- 2. <label for="lname">Last name</label><br> -->
+<!-- <input type="text" id="lname"><br><br> -->
+
+<!-- define value to change wording in submit box -->
+<!-- ** difference input type, diff value to rememberred **
+Ex. Radio type value =2 will send info to reciever that value =2 -->

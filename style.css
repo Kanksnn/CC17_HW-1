@@ -1,0 +1,88 @@
+/*CSS Reset */
+*{
+    box-sizing: border-box;
+    margin: 1;
+}
+/* padding: 0; */
+
+.navbar{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 7px;
+    justify-content:left;
+}
+
+.resumepic{
+    width: 150px;
+    height: 150px;
+}
+
+.educationicon{
+    width: 150px;
+    height: 150px;
+}
+
+.educationtable {
+    border:2px solid black;
+    border-collapse: collapse;
+}
+
+.educationtable th{
+    border:2px solid black;
+    border-collapse: collapse;
+    width: 200px;
+    text-align: center;
+}
+
+.educationtable td{
+    border:2px solid black;
+    /* width: 0px; */
+}
+
+.workexpicon{
+    width: 150px;
+    height: 150px;
+}
+
+.workexptable {
+    border:2px solid black;
+    border-collapse: collapse;
+}
+
+.workexptable th{
+    background-color:lightslategray;
+    border:2px solid black;
+    border-collapse: collapse;
+    width: 300px;
+    text-align: center;
+}
+
+.workexptable td{
+    border:2px solid black;
+    /* width: 0px; */
+}
+
+.contacticon{
+    width: 150px;
+    height: 150px;
+}
+
+.contacttable th{
+    background-color:lightslategray;
+    border:2px solid black;
+    border-collapse: collapse;
+    width: 300px;
+    text-align: center;
+}
+
+.contacttable td{
+    border:2px solid black;
+    /* width: 0px; */
+}
+
+input,select,textarea{
+    width:70%;
+    padding: 3px;
+}
